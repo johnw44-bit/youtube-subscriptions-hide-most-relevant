@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Subscriptions - Hide Most Relevant",
+  "version": "1.0",
+  "description": "Hides the algorithmic 'Most relevant' shelf on YouTube's subscriptions feed page.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/feed/subscriptions*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
