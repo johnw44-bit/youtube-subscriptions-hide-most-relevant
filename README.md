@@ -32,3 +32,7 @@ In `content.js`:
 - `HIDE_ALL_SHELVES = true` (default) — hide every rich shelf on the feed.
 - Set it to `false` to only hide shelves whose heading matches a string in
   `TARGET_TEXTS` (add more languages / labels there as needed).
+
+## Licens
+
+MIT — se [LICENSE](LICENSE).
